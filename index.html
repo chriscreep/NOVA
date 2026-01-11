@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NOVA | Clínica Estética Futurista</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">NOVA</a>
+      <nav>
+        <ul>
+          <li><a href="#treatments">Tratamientos</a></li>
+          <li><a href="#pricing">Precios</a></li>
+          <li><a href="#testimonials">Resultados</a></li>
+          <li><a href="#consultation">Consulta</a></li>
+        </ul>
+      </nav>
+    <a href="" class="cta-button">Reservar ahora</a>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Redefine tu belleza con estética de precisión</h1>
+        <p>
+          Vive el futuro del embellecimiento con nuestros tratamientos impulsados
+          por IA y un enfoque genético para la optimización de la belleza.
+        </p>
+        <div class="hero-buttons">
+          <button class="cta-button" id="virtual-consult-btn">
+            Consulta virtual
+          </button>
+          <button class="secondary-button" id="explore-treatments-btn">
+            Explorar tratamientos
+          </button>
+        </div>
+      </div>
+      <div class="dna-animation"></div>
+    </section>
+
+    <section class="consultation" id="consultation">
+      <h2 class="section-title">Consulta virtual impulsada por IA</h2>
+      <p class="section-subtitle">
+        Prueba nuestras herramientas diagnósticas de vanguardia desde la comodidad de tu hogar
+      </p>
+
+      <div class="glass-panel">
+        <div class="consultation-container">
+          <div class="consultation-feature fade-in">
+            <div class="feature-icon">
+              <i class="fas fa-camera"></i>
+            </div>
+            <h3 class="feature-title">Mapeo facial 3D</h3>
+            <p class="feature-desc">
+              Nuestra IA analiza 142 puntos faciales para crear un plan de tratamiento personalizado adaptado a tus rasgos únicos.
+            </p>
+          </div>
+          <div class="consultation-feature fade-in">
+            <div class="feature-icon">
+              <i class="fas fa-robot"></i>
+            </div>
+            <h3 class="feature-title">Asesor de tratamientos con IA</h3>
+            <p class="feature-desc">
+              Recibe recomendaciones basadas en millones de datos de perfiles similares y resultados deseados.
+            </p>
+          </div>
+          <div class="consultation-feature fade-in">
+            <div class="feature-icon">
+              <i class="fas fa-vr-cardboard"></i>
+            </div>
+            <h3 class="feature-title">Vista previa en RA</h3>
+            <p class="feature-desc">
+              Visualiza los posibles resultados en tiempo real con nuestra tecnología de simulación de realidad aumentada.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="treatments" id="treatments">
+      <h2 class="section-title">Tratamientos destacados</h2>
+      <p class="section-subtitle">
+        Nuestros tratamientos estéticos más solicitados
+      </p>
+
+      <div class="treatment-grid">
+        <div class="treatment-card fade-in">
+            <img src="https://images.pexels.com/photos/4586711/pexels-photo-4586711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                 alt="Nano Botox" 
+                 class="treatment-image"
+                 onerror="this.src='https://images.unsplash.com/photo-1599351431405-41b8b1f2a3e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80';this.alt='Imagen alternativa de tratamiento estético'">
+            <div class="treatment-overlay">
+                <h3 class="treatment-name">Nano Botox</h3>
+                <p class="treatment-price">Desde $499</p>
+            </div>
+        </div>
+        <div class="treatment-card fade-in">
+          <img
+            src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+            alt="Lifting de Plasma"
+            class="treatment-image"
+          />
+          <div class="treatment-overlay">
+            <h3 class="treatment-name">Lifting de Plasma</h3>
+            <p class="treatment-price">Desde $799</p>
+          </div>
+        </div>
+        <div class="treatment-card fade-in">
+          <img
+            src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+            alt="Rejuvenecimiento Láser"
+            class="treatment-image"
+          />
+          <div class="treatment-overlay">
+            <h3 class="treatment-name">Rejuvenecimiento Láser</h3>
+            <p class="treatment-price">Desde $1299</p>
+          </div>
+        </div>
+        <div class="treatment-card fade-in">
+          <img
+            src="https://images.unsplash.com/photo-1576086213369-97a306d36557?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1480&q=80"
+            alt="Facial con Células Madre"
+            class="treatment-image"
+          />
+          <div class="treatment-overlay">
+            <h3 class="treatment-name">Facial con Células Madre</h3>
+            <p class="treatment-price">Desde $899</p>
+          </div>
+        </div>
+        <div class="treatment-card fade-in">
+          <img
+            src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+            alt="Aumento de Labios"
+            class="treatment-image"
+          />
+          <div class="treatment-overlay">
+            <h3 class="treatment-name">Aumento de Labios</h3>
+            <p class="treatment-price">Desde $599</p>
+          </div>
+        </div>
+        <div class="treatment-card fade-in">
+          <img
+            src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80"
+            alt="Bio-Relleno"
+            class="treatment-image"
+          />
+          <div class="treatment-overlay">
+            <h3 class="treatment-name">Bio-Relleno</h3>
+            <p class="treatment-price">Desde $699</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+      <h2 class="section-title">Precios transparentes</h2>
+      <p class="section-subtitle">
+        Invierte en ti con nuestros paquetes escalonados de tratamiento
+      </p>
+
+      <div class="pricing-tiers">
+        <div class="pricing-tier glass-panel fade-in">
+          <h3 class="tier-name">Esencial</h3>
+          <div class="tier-price">$1,200 <span>/ sesión</span></div>
+          <ul class="tier-features">
+            <li>Tratamientos faciales básicos</li>
+            <li>Análisis de piel</li>
+            <li>Cuidados estándar posteriores</li>
+            <li>1 seguimiento</li>
+          </ul>
+          <button class="secondary-button">Seleccionar Plan</button>
+        </div>
+        <div class="pricing-tier glass-panel fade-in">
+          <h3 class="tier-name">Premium</h3>
+          <div class="tier-price">$2,500 <span>/ sesión</span></div>
+          <ul class="tier-features">
+            <li>Tratamientos avanzados</li>
+            <li>Mapeo facial 3D</li>
+            <li>Cuidados personalizados posteriores</li>
+            <li>3 seguimientos</li>
+            <li>Reserva prioritaria</li>
+          </ul>
+          <button class="cta-button">Seleccionar Plan</button>
+        </div>
+        <div class="pricing-tier glass-panel fade-in">
+          <h3 class="tier-name">Elite</h3>
+          <div class="tier-price">$4,800 <span>/ sesión</span></div>
+          <ul class="tier-features">
+            <li>Todos los tratamientos premium</li>
+            <li>Análisis genético</li>
+            <li>Sala VIP de cuidados posteriores</li>
+            <li>Seguimientos ilimitados</li>
+            <li>Acceso a especialistas 24/7</li>
+            <li>Certificado de tratamiento NFT</li>
+          </ul>
+          <button class="secondary-button">Seleccionar Plan</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+      <h2 class="section-title">Transformaciones de clientes</h2>
+      <p class="section-subtitle">Resultados reales de nuestros clientes satisfechos</p>
+
+      <div class="testimonial-slider">
+        <div class="testimonial-track" id="testimonial-track">
+          <div class="testimonial-card glass-panel">
+            <p class="testimonial-content">
+              "La tecnología de mapeo facial 3D me mostró exactamente qué esperar,
+              y los resultados fueron incluso mejores que la simulación. ¡Mi piel
+              no se veía así desde mis 20!"
+            </p>
+            <div class="testimonial-author">
+              <img
+                src="https://randomuser.me/api/portraits/women/43.jpg"
+                alt="Sarah J."
+                class="author-avatar"
+              />
+              <div class="author-info">
+                <h4>Sarah J.</h4>
+                <p>Tratamiento Lifting de Plasma</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card glass-panel">
+            <p class="testimonial-content">
+              "Al principio era escéptica sobre las recomendaciones de la IA, pero
+              el plan de tratamiento que me crearon resolvió problemas que ni
+              siquiera sabía que tenía. La diferencia es notable."
+            </p>
+            <div class="testimonial-author">
+              <img
+                src="https://randomuser.me/api/portraits/women/65.jpg"
+                alt="Emily R."
+                class="author-avatar"
+              />
+              <div class="author-info">
+                <h4>Emily R.</h4>
+                <p>Serie de Facial con Células Madre</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card glass-panel">
+            <p class="testimonial-content">
+              "La consulta virtual me ahorró tanto tiempo. Para cuando fui a mi
+              cita presencial, ya sabían exactamente lo que necesitaba. Vale cada centavo."
+            </p>
+            <div class="testimonial-author">
+              <img
+                src="https://randomuser.me/api/portraits/men/32.jpg"
+                alt="Michael T."
+                class="author-avatar"
+              />
+              <div class="author-info">
+                <h4>Michael T.</h4>
+                <p>Rejuvenecimiento Láser</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-nav" id="slider-nav">
+          <div class="slider-dot active" data-index="0"></div>
+          <div class="slider-dot" data-index="1"></div>
+          <div class="slider-dot" data-index="2"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="booking">
+      <h2 class="section-title">Reserva tu transformación</h2>
+      <p class="section-subtitle">
+        Agenda tu consulta con nuestro asistente de reservas con IA
+      </p>
+
+      <form class="booking-form glass-panel">
+        <div class="form-group">
+          <label for="name">Nombre completo</label>
+          <input type="text" id="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" required />
+        </div>
+        <div class="form-group">
+          <label for="phone">Teléfono</label>
+          <input type="tel" id="phone" />
+        </div>
+        <div class="form-group">
+          <label for="treatment">Tratamiento de interés</label>
+          <select id="treatment" required>
+            <option value="">Selecciona un tratamiento</option>
+            <option value="nano-botox">Nano Botox</option>
+            <option value="plasma-lift">Lifting de Plasma</option>
+            <option value="laser-resurfacing">Rejuvenecimiento Láser</option>
+            <option value="stem-cell">Facial con Células Madre</option>
+            <option value="lip-enhancement">Aumento de Labios</option>
+            <option value="bio-filler">Bio-Relleno</option>
+            <option value="consultation">Solo consulta</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="date">Fecha preferida</label>
+          <input type="date" id="date" required />
+        </div>
+        <div class="form-group">
+          <label for="time">Hora preferida</label>
+          <select id="time" required>
+            <option value="">Selecciona una hora</option>
+            <option value="morning">Mañana (9:00-12:00)</option>
+            <option value="afternoon">Tarde (12:00-16:00)</option>
+            <option value="evening">Noche (16:00-19:00)</option>
+          </select>
+        </div>
+        <div class="form-group full-width">
+          <label for="message">Solicitudes especiales</label>
+          <textarea id="message"></textarea>
+        </div>
+        <button type="submit" class="cta-button submit-button">
+          Reservar tu sesión
+        </button>
+      </form>
+    </section>
+
+    <footer>
+      <div class="footer-about">
+        <div class="footer-logo">NOVA</div>
+        <p>
+          Pioneros en el futuro de la medicina estética mediante biotecnología e inteligencia artificial.
+        </p>
+        <div class="social-links">
+          <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-tiktok"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h3 class="footer-heading">Tratamientos</h3>
+        <ul>
+          <li><a href="#">Estética facial</a></li>
+          <li><a href="#">Contorno corporal</a></li>
+          <li><a href="#">Regeneración de la piel</a></li>
+          <li><a href="#">Restauración capilar</a></li>
+          <li><a href="#">Terapias de bienestar</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h3 class="footer-heading">Empresa</h3>
+        <ul>
+          <li><a href="#">Quiénes somos</a></li>
+          <li><a href="#">Nuestra tecnología</a></li>
+          <li><a href="#">Equipo médico</a></li>
+          <li><a href="#">Investigación</a></li>
+          <li><a href="#">Carreras</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h3 class="footer-heading">Contacto</h3>
+        <p>
+          <i class="fas fa-map-marker-alt"></i> Avenida Belleza 100, Distrito Neo
+        </p>
+        <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+        <p><i class="fas fa-envelope"></i> contacto@novaaesthetics.com</p>
+        <p><i class="fas fa-clock"></i> Lun-Sab: 9:00-20:00</p>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          &copy; 2023 NOVA Aesthetics. Todos los derechos reservados. |
+          <a href="#">Política de privacidad</a> | <a href="#">Términos de servicio</a>
+        </p>
+      </div>
+    </footer>
+
+    <div class="chatbot-toggle" id="chatbot-toggle">
+      <i class="fas fa-robot"></i>
+    </div>
+
+    <div class="chatbot-container" id="chatbot-container">
+      <div class="chatbot-header">
+        <i class="fas fa-robot"></i>
+        <h3>Asistente IA NOVA</h3>
+      </div>
+      <div class="chatbot-messages" id="chatbot-messages">
+        <div class="message bot-message">
+          ¡Hola! Soy NOVA, tu consultor estético virtual. ¿En qué puedo ayudarte hoy?
+        </div>
+      </div>
+      <div class="chatbot-input">
+        <input
+          type="text"
+          id="chatbot-input"
+          placeholder="Escribe tu mensaje..."
+        />
+        <button class="send-button" id="send-message">
+          <i class="fas fa-paper-plane"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="modal" id="booking-modal">
+      <div class="modal-content glass-panel">
+        <span class="close-modal" id="close-modal">&times;</span>
+        <h2 class="section-title">Reservar tu cita</h2>
+        <p class="section-subtitle">
+          Nuestro asistente de IA encontrará el mejor horario para tu consulta
+        </p>
+
+        <form class="booking-form">
+          <div class="form-group">
+            <label for="modal-name">Nombre completo</label>
+            <input type="text" id="modal-name" required />
+          </div>
+          <div class="form-group">
+            <label for="modal-email">Correo electrónico</label>
+            <input type="email" id="modal-email" required />
+          </div>
+          <div class="form-group">
+            <label for="modal-treatment">Tratamiento de interés</label>
+            <select id="modal-treatment" required>
+              <option value="">Selecciona un tratamiento</option>
+              <option value="nano-botox">Nano Botox</option>
+              <option value="plasma-lift">Lifting de Plasma</option>
+              <option value="laser-resurfacing">Rejuvenecimiento Láser</option>
+              <option value="stem-cell">Facial con Células Madre</option>
+              <option value="consultation">Solo consulta</option>
+            </select>
+          </div>
+          <button type="submit" class="cta-button submit-button">
+            Buscar horarios disponibles
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <script src="/js/main.js"></script>
+  </body>
+</html>
