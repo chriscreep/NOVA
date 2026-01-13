@@ -35,4 +35,58 @@
           </div>
         </div>
       </div>
+
+
+
+  <form class="booking-form glass-panel">
+        <div class="form-group">
+          <label for="name">Nombre completo</label>
+          <input type="text" id="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" required />
+        </div>
+        <div class="form-group">
+          <label for="phone">Teléfono</label>
+          <input type="tel" id="phone" />
+        </div>
+        <div class="form-group">
+          <label for="treatment">Tratamiento de interés</label>
+          <select id="treatment" required>
+            <option value="">Selecciona un tratamiento</option>
+            <option value="nano-botox">Nano Botox</option>
+            <option value="plasma-lift">Lifting de Plasma</option>
+            <option value="laser-resurfacing">Rejuvenecimiento Láser</option>
+            <option value="stem-cell">Facial con Células Madre</option>
+            <option value="lip-enhancement">Aumento de Labios</option>
+            <option value="bio-filler">Bio-Relleno</option>
+            <option value="consultation">Solo consulta</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="date">Fecha preferida</label>
+          <input type="date" id="date" required />
+        </div>
+        <div class="form-group">
+          <label for="time">Hora preferida</label>
+          <select id="time" required>
+            <option value="">Selecciona una hora</option>
+            <option value="morning">Mañana (9:00-12:00)</option>
+            <option value="afternoon">Tarde (12:00-16:00)</option>
+            <option value="evening">Noche (16:00-19:00)</option>
+          </select>
+        </div>
+        <div class="form-group full-width">
+          <label for="message">Solicitudes especiales</label>
+          <textarea id="message"></textarea>
+        </div>
+        <button type="submit" class="cta-button submit-button">
+          Reservar tu sesión
+        </button>
+      </form>
+
+
+
     </section>
+
